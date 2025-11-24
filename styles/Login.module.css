@@ -1,0 +1,101 @@
+.container {
+  min-height: 100vh;
+  background-color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 0;
+}
+
+.cardWrapper {
+  max-width: 28rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 0 1.5rem;
+}
+
+.logoTitle {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.875rem;
+  font-weight: 800;
+  color: #4338ca;
+}
+
+.logoTitle span {
+  font-size: 2.25rem;
+}
+
+.signInHeader {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.inputField {
+  appearance: none;
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  font-size: 0.875rem;
+}
+
+.inputField::placeholder {
+  color: #9ca3af;
+}
+
+.linkGroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.875rem;
+}
+
+.link {
+  font-weight: 500;
+  color: #4f46e5;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: #4338ca;
+}
+
+.error {
+  color: #b91c1c;
+  font-size: 0.875rem;
+  margin-top: -1rem;
+  padding-left: 0.25rem;
+}
+
+.signInButton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.375rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: #4f46e5;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.signInButton:hover {
+  background-color: #4338ca;
+}
