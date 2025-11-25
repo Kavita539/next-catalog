@@ -1,10 +1,10 @@
 .container {
-  min-height: 100vh;
   background-color: #f9fafb;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 3rem 0;
+  padding: 8rem 0;
+  height: calc(100vh - 4rem);
 }
 
 .cardWrapper {
@@ -13,6 +13,13 @@
   margin-right: auto;
   width: 100%;
   padding: 0 1.5rem;
+}
+
+.LockClosedIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
 }
 
 .logoTitle {
